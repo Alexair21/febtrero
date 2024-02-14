@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.img p {
+    color: rgb(245, 2, 43);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-family: Arial, sans-serif; /* Usamos Arial como fuente y sans-serif como alternativa */
+    font-size: 50px;
+    border-radius: 10px; /* Añadimos bordes redondeados */
+    display: inline-block; /* Aseguramos que el contenedor se adapte al contenido */
+    font-weight: bold;
+}
+
+.img .img-small {
+    width: 300px; /* Puedes ajustar el ancho según lo necesites */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+.img .img-small2 {
+    width: 400px; /* Puedes ajustar el ancho según lo necesites */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+
+.img .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img .btn.si {
+    background-color: green;
+    color: white;
+}
+
+.img .btn.si2 {
+    background-color: green;
+    color: white;
+    width: 70px;
+    height: auto;
+    font-size: 30px; 
+    font-weight: bold;
+}
+.img .btn.si3 {
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: auto;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.img .btn.si4 {
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: auto;
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+.img .btn.si5 {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: auto;
+    font-size: 60px; 
+    font-weight: bold;
+}
+
+.img .btn.no {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+}
