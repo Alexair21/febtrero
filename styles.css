@@ -33,6 +33,11 @@ body, html {
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
 }
 
+.img .img-smallno {
+    width: 500px; /* Puedes ajustar el ancho según lo necesites */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
 
 .img .btn {
     display: inline-block;
